@@ -44,7 +44,7 @@ So: you will modify the files in the directory, and then send it back to GitHub.
 
 * How many police officers are there in Chicago?
 * How many of them are detectives?
-* What is the most common names of police officers?  What do you notice?
+* What is the most common first names of police officers?  What do you notice?
 
 ### Crime, in particular first degree murders.
 
