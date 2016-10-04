@@ -27,6 +27,7 @@ Let's also grab some crime data.
 * (Yes, there are neat tools for doing your homework, on the website.  But we'll start from the beginning and go further.
 * If this whole data grab is not working, just click this [link](https://data.cityofchicago.org/api/views/6zsd-86xi/rows.csv?accessType=DOWNLOAD&bom=true&query=select+*+where+%60date%60+%3E%3D+%272013-01-01T00%3A00%3A00%27+AND+%60date%60+%3C+%272016-01-01T00%3A00%3A00%27).
 * Move this file to your homework directory, naming it as you like (I call mine chicago_crime.csv).
+* DO NOT, along the way, open this file in Microsoft Excel and save it.  It will change how the lines are ended (return/enter) in the file, and make it stop working for you.
 
 We'll soon learn to grab these resources programmatically.  But it's already a start to get comfortable grabbing datasets from the wonderful Chicago Data Portal!
 
