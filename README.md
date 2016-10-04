@@ -66,9 +66,10 @@ git commit -m "phewff, all done!"
 git push
 ```
 
-Git may complain at you, to the effect of:
-
-```
+See the expanded tabs, for the following errors:
+<details>
+  <summary>**Please tell me who you are.**</summary>
+  ```
 *** Please tell me who you are.
 Run
 git config --global user.email "you@example.com"
@@ -76,6 +77,30 @@ git config --global user.name "Your Name"
 ```
 
 If so, just follow its instructions -- run the two `git config` commands it suggests, substituting your name and email.
+</details>
+
+<details>
+  <summary>**I committed the CSV files, and now it's complaining.**</summary>
+
+You are getting errors like this:
+
+```
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+remote: error: Trace: 88bd8639e80773fe30a7111ee335f48b
+remote: error: See http://git.io/iEPt8g for more information.
+remote: error: File crimes_chicago.csv.csv is 185.82 MB; this exceeds GitHub's file size limit of 100.00 MB
+```
+
+If you did this, you added ALL files, instead of just SOLUTIONS and the *.sh files. The CSV files (the crimes in particular) are very large, and github won't it accept files above 100 MB. The problem is that you've added it to your history. Even if you remove it at this point, git will still try to upload it, because it preserves a full history. You can remove it from the history by doing the following:
+
+```
+git filter-branch --force --index-filter 'git rm -r --cached --ignore-unmatch crimes.csv' --prune-empty --tag-name-filter cat -- --all
+```
+
+But please back up your work before doing this, it's potentially destructive. 
+
+</details>
+
 
 Just make sure it's in before Wednesday October 5th at 1:30am!
 
