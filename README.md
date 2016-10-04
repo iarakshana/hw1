@@ -65,6 +65,18 @@ git status # check that all your modified files are listed
 git commit -m "phewff, all done!"
 git push
 ```
+
+Git may complain at you, to the effect of:
+
+```
+*** Please tell me who you are.
+Run
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
+If so, just follow its instructions -- run the two `git config` commands it suggests, substituting your name and email.
+
 Just make sure it's in before Wednesday October 5th at 1:30am!
 
 ### Helpful Readings
