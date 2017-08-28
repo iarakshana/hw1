@@ -14,9 +14,7 @@ A computer will collect it -- not me.  So don't be late!!
 Please see installation instructions for
 &nbsp;<details><summary>**Windows**</summary>
    ### Cygwin 
-   
    Please do this before the first class.
-   
    * Go to https://cygwin.com/install.html
    * Download the 64-bit version ([setup-x86_64.exe](https://cygwin.com/setup-x86_64.exe)) and open it.
    * Click through the first setup window (Cygwin Setup).
@@ -34,8 +32,8 @@ Please see installation instructions for
    * "Resolving Dependencies" → Next.  (i.e., leave "Select required packages (RECOMMENDED)" checked.)
    * The setup will now start "spinning."  Give it some time.
    * "Installation Status and Create Icons" → Up to you ("Finish").  I do have the icons.
-   
-   Bonus: if you need to install additional packages, you can just run the exact same cygwin installer, over and over again, adding the extra packages you want (e.g., curl).
+   If, later, you need to install additional packages, you can just run the exact same cygwin installer, over and over again, adding the extra packages you want (e.g., curl).
+   It will just add and remove individual utilities -- not the entire cygwin program.
    
    ### Install Anaconda
    * Go to https://www.continuum.io/downloads.  Download and open the 64-bit installer.  (Don't give them your email!)
