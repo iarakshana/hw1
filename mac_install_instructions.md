@@ -6,12 +6,12 @@
   * It may ask for your business email -- you can ignore it.)
   * If the installer asks whether or not it can edit your .bashrc, the answer is _yes_.
   * When the install is complete, open Terminal and type `python`, then hit `<Enter>`.  It should read `Python 3.5.2 |Anaconda...` a new command prompt.  You can test it out (`1 + 1`, then `<Enter>`) and quit (`quit()` or `ctrl+D` on a Mac).  If you get this far, you can return to the [main instructions](README.md) to run the test script.
-* I encourage you to use [Atom](https://atom.io/) as a text editor for your first assignment; it provides syntax highlighting that you will find useful.  The [Download](https://atom.io/) and installation should be trivial.  If you want, you can delete it when you're done.
+* I encourage you to use [**Atom**](https://atom.io/) as a text editor for your first assignment; it provides syntax highlighting that you will find useful.  The [Download](https://atom.io/) and installation should be trivial.  If you want, you can delete it when you're done.
   * As an alternative, you may sometimes wantto use Jupyter notebooks or Spyder.  Both of these come with your Anaconda installation.
   * Atom requires OS X 10.8 or later.  For 10.6 or 10.7, try Sublime or TextWrangler ([4.5.12](http://www.barebones.com/support/textwrangler/updates.html)).
-* Create a [student GitHub account](https://education.github.com/pack), or just a standard GitHub account.  You will use this account to push (submit) all of your work.  Download and install [git](https://git-scm.com/downloads).
+* Create a [**student GitHub account**](https://education.github.com/pack), or just a standard GitHub account.  You will use this account to push (submit) all of your work.  Download and install [git](https://git-scm.com/downloads).
   * If your OS is more than five years old (10.7 or 10.8), you may need to get your git from [Sourceforge](https://sourceforge.net/p/git-osx-installer/activity/?page=0&limit=100#57cc86a334309d5c609e9fc8); search for version git-2.3.5-intel-universal-snow-leopard.dmg.  If you did the Window Cygwin setup, it should have included git.
-* Finally, to make submission easier, you should "create an ssh key" key for your GitHub account.
+* Finally, to make submission easier, you should **"create an ssh key" key** for your GitHub account.
   This is just the way that the git encrypts communication (lets you download files);
     `ssh` (secure shell) is the standard way that we make secure connections from the command line.
   Follow GithHub's instructions to 

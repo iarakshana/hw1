@@ -1,8 +1,8 @@
 # Windows Install Instructions
 
-### Installing Cygwin 
+Please complete the cygwin installation before the first class!
 
-Please do this before the first class.
+### Cygwin (Terminal)
 
 * Go to https://cygwin.com/install.html
 * Download the 64-bit version ([setup-x86_64.exe](https://cygwin.com/setup-x86_64.exe)) and open it.
@@ -24,7 +24,7 @@ Please do this before the first class.
 
 Bonus: if you need to install additional packages, you can just run the exact same cygwin installer, over and over again, adding the extra packages you want (e.g., curl).
 
-### Install Anaconda
+### Anaconda
 * Go to https://www.continuum.io/downloads.  Download and open the 64-bit installer.  (Don't give them your email!)
 * Setup: Next.
 * "License Agreement" → Agree to the terms and conditions.
@@ -40,5 +40,18 @@ Bonus: if you need to install additional packages, you can just run the exact sa
    * What is this doing?  The `.bashrc` file runs every time you open up a terminal, to initialize your environment.  We want to modify that initialization.  The `PATH` is the list of places, separated by colons, where the computer looks for programs.  Your computer may have found `python` before, if there was some copy of `python` on your machine.  But you want it to first find (and therefore _use_) this new copy from Anaconda, which has these nifty doodads that we'll use later in the course.  By running `export PATH=...`, you are updating your `PATH` accordingly.  
 * Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.5.2 |Anaconda 4.1.1 ..."), and a Jupyter notebook with `./Continuum/Anaconda3/Scripts/jupyter-notebook.exe` (return).
 
-### Atom Install.
+### Atom Install
 * Go to atom.io and download the Windows installer.  Launch it.  It is that simple.
+
+### GitHub Account
+* Create a [student GitHub account](https://education.github.com/pack), or just a standard GitHub account.  You will use this account to push (submit) all of your work.  Download and install [git](https://git-scm.com/downloads).
+  * If your OS is more than five years old (10.7 or 10.8), you may need to get your git from [Sourceforge](https://sourceforge.net/p/git-osx-installer/activity/?page=0&limit=100#57cc86a334309d5c609e9fc8); search for version git-2.3.5-intel-universal-snow-leopard.dmg.  If you did the Window Cygwin setup, it should have included git.
+* Finally, to make submission easier, you should "create an ssh key" key for your GitHub account.
+  This is just the way that the git encrypts communication (lets you download files);
+    `ssh` (secure shell) is the standard way that we make secure connections from the command line.
+  Follow GithHub's instructions to 
+   1. [generate a new ssh key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#platform-windows)
+      * If you have trouble creating the passphrase when the time comes ... don't (just leave it blank/hit return).  By providing the `id_rsa.pub` to GitHub, you're permanently telling it the call and response (Marco/Polo) so that it knows your computer is _you_.  This last piece is not a prerequisite for starting on Monday, but _will_ be necessary, for downloading and starting your homework.
+   2. [add it to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-windows).
+      * If `pbcopy` doesn't work, the piece that you'll paste into the GitHub site, is the output of `cat ~/.ssh/id_rsa.pub`.
+
