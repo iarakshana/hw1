@@ -13,7 +13,7 @@ A computer will collect it -- not me.  So don't be late!!
 
 Please see installation instructions for
 * [PC](windows_install.md) 
-* &nbsp;<details><summary>Mac</summary>
+<details><summary>Mac</summary>
   * You will need to have a 'Terminal' set up on your computer.  If you're running a Mac, it _is_ installed.  Just Spotlight search for 'Terminal.'  If you have a Windows machine, you'll need to install [cygwin](https://cygwin.com/install.html).  Since the Windows install is a bit more finnicky, you can find additional instructions [here](windows_install_instructions.md).
   * Download the Python 3.5, 64-bit [Anaconda](https://www.continuum.io/downloads) (Graphical Installer is easier), and install it on your computer.  (It may ask for your business email -- ignore it.)  When the install is complete, if you now run your Terminal and type `python`, then hit `<Enter>`, you should get a new command prompt.  It should say `Python 3.5.2 |Anaconda...`  You can test it out (`1 + 1`, then `<Enter>`) and quit (`quit()` or `ctrl+D` on a Mac).  As above -- Windows users please see the [additional instructions](windows_install_instructions.md).
     * If the installer asks whether or not it can edit your .bashrc, the answer is _yes_.
