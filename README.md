@@ -34,7 +34,6 @@ Please see installation instructions for
    * "Installation Status and Create Icons" → Up to you ("Finish").  I do have the icons.
    If, later, you need to install additional packages, you can just run the exact same cygwin installer, over and over again, adding the extra packages you want (e.g., curl).
    It will just add and remove individual utilities -- not the entire cygwin program.
-   
    ### Install Anaconda
    * Go to https://www.continuum.io/downloads.  Download and open the 64-bit installer.  (Don't give them your email!)
    * Setup: Next.
@@ -50,11 +49,9 @@ Please see installation instructions for
          `export PATH=/cygdrive/c/the/path/to/your/Continuum/Anaconda3:$PATH`
       * What is this doing?  The `.bashrc` file runs every time you open up a terminal, to initialize your environment.  We want to modify that initialization.  The `PATH` is the list of places, separated by colons, where the computer looks for programs.  Your computer may have found `python` before, if there was some copy of `python` on your machine.  But you want it to first find (and therefore _use_) this new copy from Anaconda, which has these nifty doodads that we'll use later in the course.  By running `export PATH=...`, you are updating your `PATH` accordingly.  
    * Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.5.2 |Anaconda 4.1.1 ..."), and a Jupyter notebook with `./Continuum/Anaconda3/Scripts/jupyter-notebook.exe` (return).
-   
    ### Atom Install.
    * Go to atom.io and download the Windows installer.  Launch it.  It is that simple.
    </details>
-   
 &nbsp;<details><summary>**Mac**</summary>
    * You will need to have a 'Terminal' set up on your computer.  If you're running a Mac, it _is_ installed.  Just Spotlight search for 'Terminal.'  
    * Download the Python 3.5, 64-bit [Anaconda](https://www.continuum.io/downloads) (Graphical Installer is easier), and install it on your computer.  (It may ask for your business email -- ignore it.)  When the install is complete, if you now run your Terminal and type `python`, then hit `<Enter>`, you should get a new command prompt.  It should say `Python 3.5.2 |Anaconda...`  You can test it out (`1 + 1`, then `<Enter>`) and quit (`quit()` or `ctrl+D` on a Mac). 
