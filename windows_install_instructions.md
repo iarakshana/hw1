@@ -1,4 +1,6 @@
-# Installing Cygwin 
+# Windows Install Instructions
+
+### Installing Cygwin 
 
 Please do this before the first class.
 
@@ -22,7 +24,7 @@ Please do this before the first class.
 
 Bonus: if you need to install additional packages, you can just run the exact same cygwin installer, over and over again, adding the extra packages you want (e.g., curl).
 
-# Install Anaconda
+### Install Anaconda
 * Go to https://www.continuum.io/downloads.  Download and open the 64-bit installer.  (Don't give them your email!)
 * Setup: Next.
 * "License Agreement" → Agree to the terms and conditions.
@@ -38,5 +40,5 @@ Bonus: if you need to install additional packages, you can just run the exact sa
    * What is this doing?  The `.bashrc` file runs every time you open up a terminal, to initialize your environment.  We want to modify that initialization.  The `PATH` is the list of places, separated by colons, where the computer looks for programs.  Your computer may have found `python` before, if there was some copy of `python` on your machine.  But you want it to first find (and therefore _use_) this new copy from Anaconda, which has these nifty doodads that we'll use later in the course.  By running `export PATH=...`, you are updating your `PATH` accordingly.  
 * Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.5.2 |Anaconda 4.1.1 ..."), and a Jupyter notebook with `./Continuum/Anaconda3/Scripts/jupyter-notebook.exe` (return).
 
-# Atom Install.
+### Atom Install.
 * Go to atom.io and download the Windows installer.  Launch it.  It is that simple.
