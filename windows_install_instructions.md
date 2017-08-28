@@ -13,10 +13,10 @@ Please complete the cygwin installation before the first class!
 * "Select Connection Type" → "Direct Connection"
 * "Choose Download Sites" → any are fine.
 * "Select packages."  Pay attention here: what you're doing is selecting the "additional prorams that you'll want!
-   * search "git".  Expand "Devel" (developpper).  Click on "git: Distributed version control system", so that it says 2.8.2-1 (or so), instead of "Skip".
-   * search "vim".  Expand "Editors" (text editors).  Click on "vim: Vi IMproved - enhanced vi editor\", so that it says 7.3.2181-1, instead of "Skip"
-   * search "python3".  Expand "Python.  Click on "python3: Py3K language interpreter" to see version 3.2.5-4 instead of "Skip".
-   * search "curl".  Expand "net".  Click on curl so that it doesn't Skip.
+   * search "git".  Click on "git: Distributed version control system", so that it says 2.8.2-1 (or so), instead of "Skip".
+   * search "python3".  Click on "python3: Py3K language interpreter" to see version 3.2.5-4 instead of "Skip".
+   * search "curl".  Click on curl so that it doesn't Skip.
+   * search "unzip".  Click on unzip so that it doesn't Skip (around 6.0-16).
    * Next.
 * "Resolving Dependencies" → Next.  (i.e., leave "Select required packages (RECOMMENDED)" checked.)
 * The setup will now start "spinning."  Give it some time.
@@ -54,4 +54,9 @@ Bonus: if you need to install additional packages, you can just run the exact sa
       * If you have trouble creating the passphrase when the time comes ... don't (just leave it blank/hit return).  By providing the `id_rsa.pub` to GitHub, you're permanently telling it the call and response (Marco/Polo) so that it knows your computer is _you_.  This last piece is not a prerequisite for starting on Monday, but _will_ be necessary, for downloading and starting your homework.
    2. [add it to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-windows).
       * If `clip` doesn't work, the piece that you'll paste into the GitHub site, is the output of `cat ~/.ssh/id_rsa.pub`.
+* Tell GitHub who you are, by executing from the command line (Terminal):
+  ```
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+  ```
 
