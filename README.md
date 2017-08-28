@@ -51,8 +51,7 @@ Please see installation instructions for
    * Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.5.2 |Anaconda 4.1.1 ..."), and a Jupyter notebook with `./Continuum/Anaconda3/Scripts/jupyter-notebook.exe` (return).
    ### Atom Install.
    * Go to atom.io and download the Windows installer.  Launch it.  It is that simple.
-   </details>
-&nbsp;<details><summary>**Mac**</summary>
+   </details>  OR  <details><summary>**Mac**</summary>
    * You will need to have a 'Terminal' set up on your computer.  If you're running a Mac, it _is_ installed.  Just Spotlight search for 'Terminal.'  
    * Download the Python 3.5, 64-bit [Anaconda](https://www.continuum.io/downloads) (Graphical Installer is easier), and install it on your computer.  (It may ask for your business email -- ignore it.)  When the install is complete, if you now run your Terminal and type `python`, then hit `<Enter>`, you should get a new command prompt.  It should say `Python 3.5.2 |Anaconda...`  You can test it out (`1 + 1`, then `<Enter>`) and quit (`quit()` or `ctrl+D` on a Mac). 
      * If the installer asks whether or not it can edit your .bashrc, the answer is _yes_.
