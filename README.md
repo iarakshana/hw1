@@ -11,7 +11,7 @@ A computer will collect it -- not me.  So don't be late!!
 
 ## Preliminaries/Setup
 
-Please see separate instructions for [windows](windows_install_instructions.md) and [Macs](mac_install_instructions.md),
+Please see separate instructions for [Windows](windows_install_instructions.md) and [Macs](mac_install_instructions.md),
   to install your terminal, python, and text editor.
 
 You can then join this assignment [here](https://classroom.github.com/assignment-invitations/8cfa1521ab98e0dfb7341771721f793b).  You'll get an email telling you that the import is complete.
