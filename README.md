@@ -55,7 +55,7 @@ Please see installation instructions for
    
    # Atom Install.
    * Go to atom.io and download the Windows installer.  Launch it.  It is that simple.
-   </summary>
+   </details>
    
 &nbsp;<details><summary>**Mac**</summary>
    * You will need to have a 'Terminal' set up on your computer.  If you're running a Mac, it _is_ installed.  Just Spotlight search for 'Terminal.'  
