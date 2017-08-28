@@ -3,7 +3,7 @@
 Please do this before the first class.
 
 * Go to https://cygwin.com/install.html
-* Download the 64-bit version (setup-x86_53.exe) and open it.
+* Download the 64-bit version ([setup-x86_53.exe](https://cygwin.com/setup-x86_64.exe)) and open it.
 * Click through the first setup window (Cygwin Setup).
 * "Choose Installation Type" → "Install from Internet."
 * "Choose Installation Directory" → whatever you'd like, but the default (C:\cygwin64) is good.
