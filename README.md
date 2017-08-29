@@ -5,6 +5,9 @@ You will also do some basic navigation of Chicago crime and city salaries, with 
 To "accept" the assignment and create your repository,
   you must first complete the setup instructions below,
   including creating your GitHub account.
+This week's assignment is graded only for completeness.
+That means: the installation is shown to be working,
+  and there are reasonable answers for all of the qustions.
 
 This assignment is due Wednesday October 4 at 1:30am.
 A computer will collect it -- not me.  So don't be late!!
@@ -53,7 +56,7 @@ curl data.cityofchicago.org/api/views/xzkq-xp2w/rows.csv -s -o salaries.csv
 ### Exercises!
 
 You now have salaries.csv in your homework directory.
-The script salaries.sh` suggests formatting for stepping through these questions.
+The script `salaries.sh` suggests formatting for stepping through these questions.
 Fill you answers in, there
 Put each of your responses into `SOLUTIONS`.
 These have structures for each of the questions below, which you'll fill out.  Open these files with Atom; then one step at a time replace the `cat` commands on each line, to complete the scripts.  (See [salaries.sh](https://github.com/harris-ippp/01-welcome/blob/master/salaries.sh) for an example.)  When you're done, fill in SOLUTIONS, as directed. 
