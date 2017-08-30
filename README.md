@@ -1,15 +1,16 @@
 # Assignment 1: Welcome to the Command Line   
 
 Your main task this week is to install the software that you will use for the rest of this class.
-You will also do some basic navigation of Chicago crime and city salaries, with command line tools.
+You will also do some basic navigation of Chicago city salaries, with command line tools.
 To "accept" the assignment and create your repository,
   you must first complete the setup instructions below,
   including creating your GitHub account.
+
 This week's assignment is graded only for completeness.
 That means: the installation is shown to be working,
   and there are reasonable answers for all of the qustions.
 
-This assignment is due Wednesday October 4 at 1:30am.
+The assignment is due Wednesday October 4 at 1:30am.
 A computer will collect it -- not me.  So don't be late!!
 
 ## Preliminaries/Setup
@@ -34,7 +35,7 @@ You can then join this assignment [here](https://classroom.github.com/assignment
   But we cannot do this for the entire quarter,
     and any technical problems will make your subsequent assignments and lecture participation much more frustrating!!
 
-<details><summary>FAQs and Common Problems</summary>
+&nbsp;<details><summary>FAQs and Common Problems</summary>
 * We'll see what questions we get...
 </details>
 
@@ -66,14 +67,15 @@ So: you will modify the files in the directory, and then send it back to GitHub.
 #### Salaries
 
 1. Which salaried worker makes the most?
-2. How full-time workers are there in the file?
-3. How part-time workers are there in the file?  (Check you work for 1, with 2 and 3.)
-4. What is the highest hourly wage in the city?
-5. Excluding the top four workers (who are doctors), what is the highest hourly wage?
-6. How many police officers are there in Chicago?
-7. How many of them are detectives?
-8. How much does the modal fireman (employee of the fire department) make?
-9. What is the most common women's name for police officers?
+2. How many employees does the city have?
+3. How full-time workers are there in the file?
+4. How part-time workers are there in the file?  (Check you work for 1, with 2 and 3.)
+5. What is the highest hourly wage in the city?
+6. Excluding the top four workers (who are doctors), what is the highest hourly wage?
+7. How many people work for the police department?
+8. How many of them are detectives?
+9. How much does the modal fireperson (employee of the fire department) make?
+10. What are the most common women's names for police officers (incl. detectives)?  (It's a tie with 35 of each.../)
 
 ## Push to GitHub
 
