@@ -33,7 +33,7 @@ Create a [**student GitHub account**](https://education.github.com/pack), or jus
    2. [add it to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-mac).
       * If `pbcopy` doesn't work, the piece that you'll paste into the GitHub site, is the output of `cat ~/.ssh/id_rsa.pub`.
 
-  Tell GitHub who you are, by executing the running the following commands,
+* Tell GitHub who you are, by executing the running the following commands,
     with appropriate substitutions:
   ```
   git config --global user.email "you@example.com"
