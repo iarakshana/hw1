@@ -46,7 +46,8 @@ Bonus: if you need to install additional packages, you can just run the exact sa
 You're done the python part!  Go back to the [main instructions](README.md) to check that the install worked out!!
 
 ### Atom Install
-* Go to atom.io and download the Windows installer.  Launch it.  It is that simple.
+* Go to atom.io and download the Windows installer.  Launch it.  It is that easy!
+* Installing a "de-linter" to find bugs in your code will help a lot.  Go to settings (Ctrl+Comma) and click on "Install."  Then search for "linter-pylint" and install it with all of the dependencies that come up.  Now whenever you save a python file, it will (partially!!) check your work!
 
 ### GitHub Account
 * Create a [student GitHub account](https://education.github.com/pack), or just a standard GitHub account.  You will use this account to push (submit) all of your work.
