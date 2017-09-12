@@ -46,7 +46,9 @@ Bonus: if you need to install additional packages, you can just run the exact sa
 * Finally, let's make sure that Jupyter can be started easily.
   * Search for it in the start menu, then right-click, and select "Properties."  (See pictures, below.)
   * Change the target field to the following, _with appropriate substitutions_!  The last bit -- the final path -- is where you want to the notebook to launch. 
-    `C:\cygwin64\home\jsaxon\Conda\python.exe "C:/cygwin64/home/jsaxon/Conda/Scripts/jupyter-notebook-script.py" --NotebookApp.iopub_data_rate_limit=100000000 C:\cygwin64\home\jsaxon`
+    ```
+    C:\cygwin64\home\jsaxon\Conda\python.exe "C:/cygwin64/home/jsaxon/Conda/Scripts/jupyter-notebook-script.py" --NotebookApp.iopub_data_rate_limit=100000000 C:\cygwin64\home\jsaxon
+    ```
     Note that your classmates with Macs will simply launch `jupyter notebook`.  You should not do this, as it will launch multiple servers that are a pain to kill, and a potential security hole.
 You're done the python part!  Go back to the [main instructions](README.md) to check that the install worked out!!
 
