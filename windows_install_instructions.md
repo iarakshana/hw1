@@ -69,3 +69,6 @@ You're done the python part!  Go back to the [main instructions](README.md) to c
   git config --global user.name "Your Name"
   ```
 
+![Start](img/jupyter_start.png!raw=true "Start")
+![Properties](img/jupyter_properties.png!raw=true "Properties")
+
