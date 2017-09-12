@@ -38,6 +38,7 @@ You can then join this assignment [here](https://classroom.github.com/assignment
   The TAs and I will be very generous with help this week, with several sessions.
   But we cannot do this for the entire quarter,
     and any technical problems will make your subsequent assignments and lecture participation much more frustrating!!
+* Open and run every cell in `test-suite.ipynb` (`Shift+Enter` or Cell → Run All).  This should end with a nice, interactive map.  This is not graded and you should not commit it (it will be large!).  But if it doesn't work, now is the time to get help.
 
 &nbsp;<details><summary>FAQs and Common Problems</summary>
 * We'll see what questions we get...
