@@ -13,6 +13,10 @@ That means: the installation is shown to be working,
 The assignment is due Wednesday October 4 at 1:30am.
 A computer will collect it -- not me.  So don't be late!!
 
+## Grading
+
+Acquaint yourself with the [grading scheme](https://harris-ippp.github.io/#weekly-assignments-70) for weekly assignments.
+
 ## Preliminaries/Setup
 
 Please see separate instructions for [Windows](windows_install_instructions.md) and [Macs](mac_install_instructions.md),
