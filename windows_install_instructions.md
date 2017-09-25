@@ -55,8 +55,11 @@ Bonus: if you need to install additional packages, you can just run the exact sa
 * Learn about Anaconda cloud only if you feel like it (no).
 * Now, open up cygwin.  You will be at /home/\<YOUR_USER_ID\>/.  Type `which python`.  It will probably _not_ be the one you just installed.
    * Using Atom, open up the file `.bashrc`, which should be in `/home/UserName/` in your cygwin directory: in my case, `C:\cygwin\home\jsaxon\.bashrc`.
-   * At the end of this fille, add and save (with an appropriate substitution for the path)</br>
-      `export PATH=/cygdrive/c/the/path/to/your/Continuum/Anaconda4:$PATH`
+   * At the end of this fille, add and save (with an appropriate substitution for the path)
+     ```export PATH=/cygdrive/c/the/path/to/your/Continuum/Anaconda4:$PATH```
+     By "appropriate substitutions", I mean that the path following `/cygdrive/c/` follows _your_ directory structure.
+     The backslashes remain backslashes, and it does not start with `C:` -- that gets replaced with `/cygdrive/c/`.
+     If a folder name has spaces in it, you will have to "escape" it with slash: `James\ Saxon`.
    * What is this doing?  The `.bashrc` file runs every time you open up a terminal, to initialize your environment.  We want to modify that initialization.  The `PATH` is the list of places, separated by colons, where the computer looks for programs.  Your computer may have found `python` before, if there was some copy of `python` on your machine.  But you want it to first find (and therefore _use_) this new copy from Anaconda, which has these nifty doodads that we'll use later in the course.  By running `export PATH=...`, you are updating your `PATH` accordingly.  
 * Now, when you open cygwin, you should be able to get a python prompt via `python -i` (return) (it should say "Python 3.6.2 |Anaconda 4...").
 * Exit python (`quit()`) and add a few more (mainly geographic) packages, with this command:
