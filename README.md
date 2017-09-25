@@ -91,10 +91,13 @@ git status # check that all your modified files are listed
 git commit -m "phewff, all done!"
 git push
 ```
+You may also use Atom's built-in git functionality.
 
-Now go online to your GitHub page (with substitutions!), to check that everything is there:
+Now go online to your GitHub repository page (with substitutions!), to check that everything is there:
 
-* https://github.com/MyGitHubName/hw-1-welcome
+* https://github.com/harris-ippp/hw-1-MyGitHubName
+
+Note that this is in the classroom (harris-ippp) organization, not your own area.
 
 You should have committed five files: `salaries.sh`, `SOLUTIONS`, `ba_frac.pdf`, `density.pdf`, and `test-suite.txt`.
 
