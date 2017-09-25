@@ -56,7 +56,9 @@ Bonus: if you need to install additional packages, you can just run the exact sa
 * Now, open up cygwin.  You will be at /home/\<YOUR_USER_ID\>/.  Type `which python`.  It will probably _not_ be the one you just installed.
    * Using Atom, open up the file `.bashrc`, which should be in `/home/UserName/` in your cygwin directory: in my case, `C:\cygwin\home\jsaxon\.bashrc`.
    * At the end of this fille, add and save (with an appropriate substitution for the path)
-     ```export PATH=/cygdrive/c/the/path/to/your/Continuum/Anaconda4:$PATH```
+     ```
+     export PATH=/cygdrive/c/the/path/to/your/Continuum/Anaconda4:$PATH
+     ```
      By "appropriate substitutions", I mean that the path following `/cygdrive/c/` follows _your_ directory structure.
      The backslashes remain backslashes, and it does not start with `C:` -- that gets replaced with `/cygdrive/c/`.
      If a folder name has spaces in it, you will have to "escape" it with slash: `James\ Saxon`.
