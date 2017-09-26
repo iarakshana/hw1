@@ -72,6 +72,7 @@ So: you will modify the files in the directory, and then send it back to GitHub.
 
 #### Salaries
 
+Required:
 1. Which salaried worker makes the most?
 2. How many employees does the city have?
 3. How full-time workers are there in the file?
@@ -79,6 +80,8 @@ So: you will modify the files in the directory, and then send it back to GitHub.
 5. What is the highest hourly wage in the city?
 6. Excluding the top four workers (who are doctors), what is the highest hourly wage?
 7. How many people work for the police department?
+
+Enrichment:
 8. How many of them are detectives?
 9. How much does the modal fireperson (employee of the fire department) make?
 10. What are the most common women's names for police officers (incl. detectives)?  (It's a tie with 35 of each.../)
