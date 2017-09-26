@@ -27,7 +27,7 @@ You can then join this assignment [here](https://classroom.github.com/assignment
   The choice of directory is up to you -- just as you'd save the documents for any other class.
   Remember that a terminal is analogous to Windows Explorer or Mac Finder.  It allows you to navigate and access your files.
   * On Cygwin, your "normal" directory structure (your C:\ drive) lives at `/cygdrive/c/`.
-* Issue ```git clone git@github.com:harris-ippp/hw-1-UserName.git``` (replacing `Username` by your GitHub user name), to download the directory.
+* Issue ```git clone git@github.com:harris-ippp/hw-1-UserName.git``` (replacing `Username` by your GitHub user name), to download the directory.  If this fails, then something has (likely) gone wrong in your ssh setup.  Go back and check the instructions for setting up GitHub ssh keys.
 * Now `cd` into that directory (`hw-1-UserName`) to get started.
 * Issue the command `./test-suite.py`.  It should end by `Congrats!  Check-out looks great!` 
   It will also create a `test-suite.txt` file, that you will submit as part of your homework, 
