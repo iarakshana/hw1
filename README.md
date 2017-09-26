@@ -19,7 +19,7 @@ Acquaint yourself with the [grading scheme](https://harris-ippp.github.io/#weekl
 
 ## Preliminaries/Setup
 
-Please see separate instructions for [Windows](windows_install_instructions.md) and [Macs](mac_install_instructions.md),
+Please see separate instructions for [Windows](https://harris-ippp.github.io/windows_install) and [Macs](https://harris-ippp.github.io/mac_install),
   to install your terminal, python, and text editor.
 
 You can then join this assignment [here](https://classroom.github.com/assignment-invitations/8cfa1521ab98e0dfb7341771721f793b).  You'll get an email telling you that the import is complete.
