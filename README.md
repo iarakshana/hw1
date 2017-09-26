@@ -75,7 +75,7 @@ So: you will modify the files in the directory, and then send it back to GitHub.
 1. Which salaried worker makes the most?
 2. How many employees does the city have?
 3. How full-time workers are there in the file?
-4. How part-time workers are there in the file?  (Check you work for 1, with 2 and 3.)
+4. How part-time workers are there in the file?  (Check you work for 2, with 3 and 4.)
 5. What is the highest hourly wage in the city?
 6. Excluding the top four workers (who are doctors), what is the highest hourly wage?
 7. How many people work for the police department?
