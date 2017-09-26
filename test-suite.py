@@ -18,7 +18,7 @@ import json
 import matplotlib 
 # matplotlib.use('Agg')
 
-# os.system('curl https://www2.census.gov/geo/tiger/TIGER2016/TRACT/tl_2016_17_tract.zip -o il_tracts.zip')
+os.system('curl https://www2.census.gov/geo/tiger/TIGER2016/TRACT/tl_2016_17_tract.zip -o il_tracts.zip')
 
 if not os.path.exists("il_tracts.zip"):
     print("Tract file is missing! curl failed! abort!")
