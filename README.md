@@ -63,9 +63,10 @@ curl data.cityofchicago.org/api/views/xzkq-xp2w/rows.csv -s -o salaries.csv
 
 You now have salaries.csv in your homework directory.
 The script `salaries.sh` suggests formatting for stepping through these questions.
-Fill you answers in, there
-Put each of your responses into `SOLUTIONS`.
-These have structures for each of the questions below, which you'll fill out.  Open these files with Atom; then one step at a time replace the `cat` commands on each line, to complete the scripts.  (See [salaries.sh](https://github.com/harris-ippp/01-welcome/blob/master/salaries.sh) for an example.)  When you're done, fill in SOLUTIONS, as directed. 
+These have structures for each of the questions below, which you'll fill out.  Open these files with Atom; then one step at a time replace the `cat` commands on each line, to complete the scripts.  (See [salaries.sh](https://github.com/harris-ippp/01-welcome/blob/master/salaries.sh) for an example.)  
+
+When you're done, fill in `SOLUTIONS`, using the formats suggested.
+The answers there are bogus -- just fillers.
 
 So: you will modify the files in the directory, and then send it back to GitHub.  Since you've made a copy of the repository by accepting the assignment, all of your work will be separate and will not interfere with your classmates.  We will see your edited files (provided that you uploaded them on git), and you can check this too, by navigating to your own repository on your GitHub page. 
 
