@@ -70,9 +70,10 @@ The answers there are bogus -- just fillers.
 
 So: you will modify the files in the directory, and then send it back to GitHub.  Since you've made a copy of the repository by accepting the assignment, all of your work will be separate and will not interfere with your classmates.  We will see your edited files (provided that you uploaded them on git), and you can check this too, by navigating to your own repository on your GitHub page. 
 
-#### Salaries
+#### Salaries Manipulation
 
 Required:
+
 1. Which salaried worker makes the most?
 2. How many employees does the city have?
 3. How full-time workers are there in the file?
@@ -82,6 +83,7 @@ Required:
 7. How many people work for the police department?
 
 Enrichment:
+
 8. How many of them are detectives?
 9. How much does the modal fireperson (employee of the fire department) make?
 10. What are the most common women's names for police officers (incl. detectives)?  (It's a tie with 35 of each.../)
