@@ -44,6 +44,11 @@ You can then join this assignment [here](https://classroom.github.com/assignment
   The TAs and I will be very generous with help this week, with several sessions.
   But we cannot do this for the entire quarter,
     and any technical problems will make your subsequent assignments and lecture participation much more frustrating!!
+  * If you have the error: 
+    ```
+    OSError: Could not find lib geos_c or load any of its variants ['/Library/Frameworks/GEOS.framework/Versions/Current/GEOS', '/opt/local/lib/libgeos_c.dylib'].
+    ```
+    on a Mac, please hold tight for a day.  I'll find a fix, but haven't yet, because I can't reproduce it on my own machine.
 * Open jupyter, and then find `test-suite.ipynb`.  Run every cell in the notebook (`Shift+Enter` or Cell → Run All).  This should end with a nice, interactive map.  This is not graded and you should not commit it (it will be large!).  But if it doesn't work, now is the time to get help.
 
 &nbsp;<details><summary>FAQs and Common Problems</summary>
