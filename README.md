@@ -1,4 +1,4 @@
-# Assignment 1: Welcome to the Command Line   
+# Assignment 1: Welcome to the Command Line
 
 Your main task this week is to install the software that you will use for the rest of this class.
 You will also do some basic navigation of Chicago city salaries, with command line tools.
