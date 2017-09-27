@@ -29,6 +29,12 @@ You can then join this assignment [here](https://classroom.github.com/assignment
   * On Cygwin, your "normal" directory structure (your C:\ drive) lives at `/cygdrive/c/`.
 * Issue ```git clone git@github.com:harris-ippp/hw-1-UserName.git``` (replacing `Username` by your GitHub user name), to download the directory.  If this fails, then something has (likely) gone wrong in your ssh setup.  Go back and check the instructions for setting up GitHub ssh keys.
 * Now `cd` into that directory (`cd hw-1-UserName`) to get started.  (Obviously, you'll replace "UserName" with your GitHub username!)
+* Download some mapping data:
+  ```
+  curl https://www2.census.gov/geo/tiger/TIGER2016/TRACT/tl_2016_17_tract.zip -o il_tracts.zip
+  ```
+  or alternatively, edit the test-suite.py script, so that that line (21) is not commented out.
+  (If you are checking out this script a bit later, it should be fixed.) 
 * Issue the command `./test-suite.py`.  It should end by `Congrats!  Check-out looks great!` 
   It will also create a `test-suite.txt` file, that you will submit as part of your homework, 
     along with `density.pdf` and `ba_frac.pdf`.
