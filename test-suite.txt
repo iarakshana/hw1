@@ -1,0 +1,10 @@
+python       :: 3.6.2 |Anaconda custom (64-bit)| (default, Sep 19 2017, 08:03:39) [MSC v.1900 64 bit (AMD64)]
+requests     :: 2.18.4    
+pandas       :: 0.20.3    
+geopandas    :: 0.3.0     
+psycopg2     :: 2.7.3.1 (dt dec pq3 ext lo64)
+json         :: 2.0.9     
+shapely      :: 1.6.1     
+fiona        :: 1.7.9     
+numpy        :: 1.12.1    
+scipy        :: 0.19.1    
